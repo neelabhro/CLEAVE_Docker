@@ -17,3 +17,7 @@ To build all images and architectures:
 ```bash
 $ make all
 ```
+
+For Accessing Testbed:
+1. Select worker using https://expeca.proj.kth.se/inventory/#worker-nodes
+2. Lease worker node from https://testbed.expeca.proj.kth.se/project/leases/

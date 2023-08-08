@@ -21,3 +21,6 @@ $ make all
 For Accessing Testbed:
 1. Select worker using https://expeca.proj.kth.se/inventory/#worker-nodes
 2. Lease worker node from https://testbed.expeca.proj.kth.se/project/leases/
+
+
+For errors in Python 3.8 Distutils installation-- sudo apt-get install python3.8-distutils

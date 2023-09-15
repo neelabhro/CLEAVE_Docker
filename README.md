@@ -17,6 +17,13 @@ To build all images and architectures:
 ```bash
 $ make all
 ```
+To rebuild images:
+
+```bash
+$ docker buildx rm multiarch
+$ docker buildx create --name multiarch --use —bootstrap
+$ docker buildx build --platform=linux/arm64,linux/amd64 -f ./Dockerfile --target cleave -t expeca/cleave:cleave .
+```
 
 For Accessing Testbed:
 1. Select worker using https://expeca.proj.kth.se/inventory/#worker-nodes

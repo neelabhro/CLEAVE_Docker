@@ -8,3 +8,6 @@
 8. vim examples/inverted_pendulum/plant/config_with_viz.py 
 Change the host address to the desired one, for instance: host = '130.237.11.117'
 Change the port number to the Server's port number, for instance: PORT = 5000
+
+Finally, run:
+9. python cleave.py -vvvvv run-plant examples/inverted_pendulum/plant/config_with_viz.py 

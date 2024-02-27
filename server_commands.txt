@@ -1,0 +1,9 @@
+1. git clone https://github.com/KTH-EXPECA/CLEAVE.git
+2. cd ./CLEAVE/
+3. pip install virtualenv
+4. virtualenv --python=python3.8 ./venv
+5. . ./venv/bin/activate
+6. pip install -Ur ./requirements.txt
+7. pip install pyglet==1.5.20
+8. vim examples/inverted_pendulum/controller/config.py 
+Change the port number to the desired port number, for instance: PORT = 5000

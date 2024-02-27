@@ -1,0 +1,10 @@
+1. git clone https://github.com/KTH-EXPECA/CLEAVE.git
+2. cd ./CLEAVE/
+3. pip install virtualenv
+4. virtualenv --python=python3.8 ./venv
+5. . ./venv/bin/activate
+6. pip install -Ur ./requirements.txt
+7. pip install pyglet==1.5.20
+8. vim examples/inverted_pendulum/plant/config_with_viz.py 
+Change the host address to the desired one, for instance: host = '130.237.11.117'
+Change the port number to the Server's port number, for instance: PORT = 5000

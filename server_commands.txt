@@ -7,3 +7,9 @@
 7. pip install pyglet==1.5.20
 8. vim examples/inverted_pendulum/controller/config.py 
 Change the port number to the desired port number, for instance: PORT = 5000
+
+Finally, run:
+9. python cleave.py -vvvvv run-controller examples/inverted_pendulum/controller/config.py
+
+In case it shows an error regarding the port being busy, 
+10. kill -9 $(lsof -t -i:PORT_NUMBER)

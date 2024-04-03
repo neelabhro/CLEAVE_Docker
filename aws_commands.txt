@@ -1,0 +1,10 @@
+Download the publickey and reach the folder
+1. sudo ssh ubuntu@ec2-54-173-23-187.compute-1.amazonaws.com -i neel-ssh.pem
+2. sudo apt install gitsudo apt-install software-properties-common
+3. sudo apt-add repository universe
+4. sudo apt-get update
+5. sudo apt-get upgrade
+6. sudo apt install python3-pip
+7. sudo add-apt-repository ppa:deadsnakes/ppa
+8. sudo apt install python3.8
+9. sudo apt install python3.8-distutils
